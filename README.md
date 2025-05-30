@@ -65,7 +65,7 @@ This beginner project was created as part of the FNB web development program. It
 ## View Project
 
 If deployed via GitHub Pages:  
-[🔗 Live Demo](https://bonganirampai.github.io/avengers-website)
+[🔗 Live Demo](https://bonganirampai.github.io/Superhero-App)
 
 ## Author
 
