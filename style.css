@@ -1,0 +1,104 @@
+.galley a,image{
+width: 100px;
+}
+#menu-bar{
+    width: 100%;
+    height: 30px;
+    background-color: cornflowerblue;
+    padding-top: 12px;
+}
+#menu-bar a{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#menu-bar a:hover{
+    color: #5077bd;
+}
+ul{
+    list-style-type: circle;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    background-image: url('images/avengers_01.jpg'); /* Add your own Avengers-themed background */
+    background-size: cover;
+    color: #fff;
+
+}
+.container h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.container p{
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container form label{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+input[type="text"]
+input[type="email"]
+textarea{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid  #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+textarea{
+    resize: vertical;
+    min-height: 150px;
+}
+a#but{
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+a#but:hover{
+    background-color: #0056b3;
+
+}
+a#but:disabled{
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+@media(max-width:768px){
+    .container{
+        padding: 15px;
+    }
+    .container h1{
+        font-size: 1.5rem;
+    }
+}
+
